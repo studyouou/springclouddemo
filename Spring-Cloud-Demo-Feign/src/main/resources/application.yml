@@ -1,0 +1,13 @@
+server:
+  port: 20084
+spring:
+  application:
+    name: feign
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20080/eureka
+    fetch-registry: true
+feign:
+  hystrix:
+    enabled: true

@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "org.ougen.properties",
+      "type": "org.ougen.springclouddemoconfigclient.ownproperties.PropertiesDemo",
+      "sourceType": "org.ougen.springclouddemoconfigclient.ownproperties.PropertiesDemo"
+    }
+  ],"name": "server.error.path",
+  "properties": [
+    {
+      "name": "org.ougen.properties.name",
+      "type": "java.lang.String",
+      "description": "this is name",
+      "sourceType": "org.ougen.springclouddemoconfigclient.ownproperties.PropertiesDemo",
+      "defaultValue": "ougen"
+    },
+    {
+      "name": "org.ougen.properties.city",
+      "type": "java.lang.String",
+      "description": "this is city",
+      "sourceType": "org.ougen.springclouddemoconfigclient.ownproperties.PropertiesDemo",
+      "defaultValue": "chengdu"
+    },
+    {
+      "name": "org.ougen.properties.age",
+      "type": "java.lang.Integer",
+      "description": "this is age",
+      "sourceType": "org.ougen.springclouddemoconfigclient.ownproperties.PropertiesDemo",
+      "defaultValue": "23"
+    }
+  ],
+  "hints": []
+}

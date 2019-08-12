@@ -1,0 +1,12 @@
+
+server:
+  port: 20083
+spring:
+  application:
+    name: customer
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:20080/eureka
+    eureka-server-connect-timeout-seconds: 10

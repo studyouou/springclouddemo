@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      profile: pro
+      label: master
+      retry:
+        maxAttempts: 6
+        multiplier: 1.1
+        maxInterval: 2000
+      fail-fast: true
+      enabled: true
+      uri: http://localhost:20087,http://localhost:20086
+
+
+

@@ -1,0 +1,13 @@
+server:
+  port: 20080
+spring:
+  application:
+    name: register
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
+  instance:
+    hostname: localhost

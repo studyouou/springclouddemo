@@ -1,0 +1,19 @@
+server:
+  port: 20085
+spring:
+  application:
+    name: zuul
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:20080/eureka
+zuul:
+  routes:
+    api-a:
+      path: /api-a/*
+      serviceId: feign
+    api-b:
+      path: /api-b/*
+      serviceId: customer
+
